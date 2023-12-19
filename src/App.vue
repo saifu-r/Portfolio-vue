@@ -6,7 +6,7 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#projecs">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -33,15 +33,20 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profilepicedit.jpg" alt="Saifur Rahman">
+        <img src="./assets/profilepicedit-modified2.png" alt="Saifur Rahman">
       </div>
       <div class="section__text"> 
-        <p class="section__text__p1">Hey, I'm</p>
+        
+        <div class="section__text__container">
+          <div class="hey">hey,</div>
+          <p class="section__text__p1_hey">I'm </p>
+        </div>
+        
         <h1 class="title">Saifur Rahman</h1>
         <p class="section__text__p2">Web Developer</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" @click="downloadCV">Download CV</button>
-          <button class="btn btn-color-1" @click="locationContact">Contact</button>
+          <button class="btn btn-color-1" @click="downloadCV">Download CV</button>
+          <button class="btn btn-color-2" @click="locationContact">Contact</button>
         </div>
         <div id="socials-container">
           <img src="./assets/linkedin.png" alt="linkedin" class="icon" @click="locationLinkedIn">
@@ -58,19 +63,19 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container2">
-          <img src="./assets/about_pic.jpg" alt="About Picture" class="section__pic-container2">
+          <img src="./assets/about_pic4.jpg" alt="About Picture" class="section__pic-container2">
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img src="./assets/experience.png" alt="Experience" class="icon">
-              <h3>Experience</h3>
+              <h3>Experience</h3><br>
               <p>2+ years <br>Web Developer</p> 
 
             </div>
             <div class="details-container">
               <img src="./assets/education.png" alt="Education" class="icon">
-              <h3>Education</h3>
+              <h3>Education</h3><br>
               <p>GCSES/A Levels- Science<br>Oxford International School</p> <br>
               <p>B.Sc. Bachelors Degree <br>North South University</p> 
             </div>
@@ -88,9 +93,194 @@
       <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" @click="locationExperience">
     </section>
 
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>VueJS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>Java</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>Python</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
 
 
 
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>PHP MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" @click="locationProject">
+
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-demo.png" alt="project1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project 1</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-demo.png" alt="project2" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project 2</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-demo.png" alt="project3" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project 3</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+            
+          </div>
+        </div></div>
+      </div>
+
+      <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" @click="locationContact">
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="email icon" class="icon contact-icon">
+          <p><a href="mailto:saifur.rubayet@northsouth.edu">Mail Me</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="linedin icon" class="icon linedin-icon">
+          <p><a href="https://linkedin.com">Message Me</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+      </nav>
+
+      <p>Copywrite &#169; 2023 Saifur Rahman, All Rights</p>
+    </footer>
 
 
 
@@ -129,6 +319,10 @@ export default defineComponent({
     location.href= './#experience'
   }
 
+  const locationProject= ()=>{
+    location.href= './#projects'
+  }
+
   const locationLinkedIn= ()=>{
     location.href= 'https://linkedin.com'
   }
@@ -136,13 +330,14 @@ export default defineComponent({
     location.href= 'https://github.com/saifu-r'
   }
 
-  return {toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience}
+  return {toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience, locationProject}
   }
 });
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); /* for hey */
 
 *{
   margin: 0;
@@ -167,6 +362,7 @@ a, .btn{
 
 nav, .nav-links{
   display: flex;
+  background-color: #F5CCA0;
 }
 
 nav{
@@ -185,18 +381,20 @@ nav{
 a{
   color: black;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(238, 150, 50);
 }
 
 a:hover{
-  color: grey;
+  color: rgb(238, 150, 50);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181,181,181);
+  text-decoration-color: rgb(238, 150, 50);
 }
 
 .logo{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: rgb(240, 134, 34);
+  
 
 }
 
@@ -290,13 +488,15 @@ a:hover{
 section{
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
+  /* smargin: 0 10rem;
+  box-sizing: border-box; */
   min-height: fit-content;
 }
 
 .section-container{
   display: flex;
+  justify-content: center;
+  
 }
 
 /* profile */
@@ -306,6 +506,7 @@ section{
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  background-color: #F5CCA0;
 
 }
 
@@ -315,17 +516,11 @@ section{
   width: 400px;
   margin: auto 0;
   overflow: hidden;
-  border-radius: 50%;
+
 
 }
 
-.section__pic-container img {
-  width: 100%;
-  height: auto; /* to maintain aspect ratio*/
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%; /* Make the image itself circular */
-}
+
 
 .section__text{
   align-self: center;
@@ -337,6 +532,21 @@ section{
 .section__text p{
   font-weight: 600;
   margin: 15px;
+}
+
+.section__text__container {
+  display: inline-block;
+}
+
+.hey, .section__text__p1_hey {
+  display: inline;
+}
+
+.hey{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 70px;
+  color: rgb(240, 134, 34);
+
 }
 
 .section__text__p1{
@@ -385,7 +595,7 @@ section{
 }
 
 .btn-color-1, .btn-color-2{
-  border: rgb(53,53,53) 0.1rem solid;
+  border: rgb(238, 150, 50) 0.05rem solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover{
@@ -393,22 +603,19 @@ section{
 
 }
 
-.btn-color-1, .btn-color-2:hover{
-  background: rgb(53,53,53);
-  color: white;
+.btn-color-1, .btn-color-2{
+  background: rgba(255,152,0,255);
+  color: black;
   
 }
 
-.btn-color-1:hover{
-  background: rgb(0,0,0);
-}
-.btn-color-2{
-  background: none;
+.btn-color-1:hover, .btn-color-2:hover{
+  border: white 0.05rem solid;
+  background: rgba(255,152,0,255);
 }
 
-.btn-color-2:hover{
-  border: rgb(255,255,255) 0.1rem solid;
-}
+
+
 
 .btn-container{
   gap: 1rem;
@@ -418,7 +625,7 @@ section{
 
 #about{
   position: relative;
-  background-color: antiquewhite;
+  background-color: rgb(232, 250, 250);
 }
 
 .about-containers{
@@ -445,7 +652,7 @@ section{
 
 .arrow{
   position: absolute;
-  right: -5rem;
+  right: 5rem;
   bottom: 2.5rem;
 }
 
@@ -466,13 +673,154 @@ section{
 }
 
 .section__pic-container2{
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  
   margin: auto 0;
   border-radius: 2rem;
   object-fit: cover;
 
 }
+
+/* Experience section */
+
+#experience{
+  position:relative;
+  background-color: darkgray;
+}
+
+.experience-sub-title{
+  color: rgb(85,85,85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.article-container{
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article{
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+article .icon{
+  cursor: default;
+}
+
+#experience .details-container{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding:  50px 100px 100px;
+}
+
+/* projects section*/
+
+#projects{
+  position:relative;
+  background-color: rgb(151, 114, 114);
+  padding-right: 30px;
+  padding-bottom: 0;
+  padding-left: 30px;
+  
+}
+
+.color-container{
+  border-color: rgb(163,163,163);
+  background: rgb(250,250,250);
+}
+
+.project-img{
+  border-radius: 2rem;
+  width: 100%;
+  height: 90%;
+
+}
+
+.project-title{
+  margin: 2rem;
+  color:black;
+  
+
+}
+
+.project-btn{
+  color: black;
+  border-color: rgb(163,163,163);
+}
+
+/* Contact */
+
+#contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container{
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53,53,53);
+  border-color: rgb(163,163,163);
+  background: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p{
+  font-size: larger;
+}
+
+.contact-icon{
+  cursor: default ;
+  height: 2rem;
+
+}
+
+/* footer Section */
+
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+
+}
+
+footer p{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -486,6 +834,116 @@ section{
   #hamburger-nav{
     display: flex;
   }
+  #experience, .experience-details-container{
+    margin-top: 2rem;
+
+  }
+
+  #profile, .section-container{
+    display:block;
+  }
+  .arrow{
+    display: none;
+  }
+
+  section, .section-container{
+    height: fit-content;
+  }
+
+  
+  .section__pic-container{
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  
+  .about-containers{
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+  #profile{
+    height: 83vh;
+    margin-bottom: 6rem;
+    
+  }
+  .about-containers{
+    flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 600px){
+  #contact, footer{
+    height: 40vh;
+
+  }
+  #profile{
+    height: 83vh;
+    margin-bottom: 0;
+
+  }
+  article{
+    font-size: 1rem;
+  }
+  footer nav{
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers, .contact-info-upper-container, .btn-container{
+    flex-wrap: wrap;
+
+  }
+
+  .contact-info-container{
+    margin: 0;
+
+  }
+  .contact-info-container p,.nav-links li a{
+    font-size: 1rem;
+  }
+  .experience-sub-title{
+    font-size: 1.25rem;
+
+  }
+  .logo{
+    font-size: 1.5rem;
+  }
+  .nav-links{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container{
+    width: 40vh;
+
+    justify-content: center;
+
+  }
+  .section__text__p2{
+    font-size: 1.25rem;
+
+  }
+
+  .title{
+    font-size: 2rem;
+
+  }
+  .text-container{
+    text-align: justify;
+  }
+  .section__pic-container2{
+    width: auto;
+    height: 25vh;
+    justify-content: center;
+    display: flex;
+  }
+
+  #experience .details-container{
+    padding: 20px 0px 0px 20px;
+  }
+}
+  
   
 }
 
