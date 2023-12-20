@@ -71,7 +71,7 @@
             <div class="details-container">
               <img src="./assets/experience.png" alt="Experience" class="icon">
               <h3>Experience</h3><br>
-              <p>2+ years <br>Web Developer</p> 
+              <p>Fresher <br>Web Developer</p> 
 
             </div>
             <div class="details-container">
@@ -83,9 +83,12 @@
           </div>
 
           <div class="text-container">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum doloremque dolore ipsa ipsum,<br>
-               recusandae minima tempora officia eaque vero quod impedit quia corporis reiciendis iusto <br>
-               fugit repudiandae laboriosam. Ut, amet.</p>
+            <p>As a recent graduate actively pursuing opportunities in web development, I bring a solid educational foundation in design principles and programming, 
+              along with practical experience in HTML, CSS, and JavaScript. Proficient in Vue3 Composition API, I leverage its advantages for enhanced code reusability 
+              and maintainability. I have applied TypeScript to my projects for improved typing and code quality. In a junior design project, I utilized Android Studio, 
+              Java, and SQLite to develop an NGO application, enabling users to search for donations for autism children, find nearby doctors, and locate schools specializing 
+              in autism care. Additionally, my senior design project, "Natural Disaster Damage Estimation Using Deep Learning," involved implementing some models 
+              for accurate damage detection. I am eager to contribute my skills and passion for web development to impactful projects.</p>
           </div>
 
         </div>
@@ -238,9 +241,9 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-demo.png" alt="project2" class="project-img">
+            <img src="./assets/project3.png" alt="project2" class="project-img">
           </div>
-          <h2 class="experience-sub-title project-title">Project 2</h2>
+          <h2 class="experience-sub-title project-title">CSE Quiz</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
             <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
@@ -293,9 +296,6 @@
 
       <p>Copywrite &#169; 2023 Saifur Rahman, All Rights</p>
     </footer>
-
-
-
 
   </div>
 
@@ -658,6 +658,13 @@ section{
   flex-direction: column;
 }
 
+.text-container{
+  width: 700px;
+  text-align: center;
+  font-size: large;
+  ;
+}
+
 
 .about-containers, .about-details-container{
   display: flex;
@@ -768,13 +775,14 @@ article .icon{
 .project-img{
   border-radius: 2rem;
   width: 100%;
-  height: 90%;
+  height: 70%;
 
 }
 
 .project-title{
   margin: 2rem;
   color:black;
+  font-size: larger;
   
 
 }
@@ -949,7 +957,8 @@ footer nav .nav-links{
     text-align: center;
   }
   .section__pic-container{
-    width: 40vh;
+    height: 200px;
+    width: 200px;
 
     justify-content: center;
 
@@ -965,6 +974,9 @@ footer nav .nav-links{
   }
   .text-container{
     text-align: justify;
+    width: auto;
+    margin: 10px;
+    font-size: smaller;
   }
   .section__pic-container2{
     width: auto;
