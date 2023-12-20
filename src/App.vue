@@ -875,7 +875,7 @@ footer nav .nav-links{
     display: flex;
   }
   #experience, .experience-details-container{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 
   }
 
