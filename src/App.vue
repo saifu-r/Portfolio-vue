@@ -31,6 +31,7 @@
       </div>
       
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profilepicedit-modified2.png" alt="Saifur Rahman">
@@ -215,11 +216,22 @@
         <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-demo.png" alt="project1" class="project-img">
+            <img src="./assets/project1.png" alt="project1" class="project-img"> 
           </div>
-          <h2 class="experience-sub-title project-title">Project 1</h2>
+          <h2 class="experience-sub-title project-title">Weather Application</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
+            <button class="btn btn-color-2 project-btn" @click="locationGithubProject1">Github</button>
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project2.png" alt="project2" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Pomorodo Application</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" @click="locationGithubProject2">Github</button>
             <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
             
           </div>
@@ -329,8 +341,15 @@ export default defineComponent({
   const locationGithub= ()=>{
     location.href= 'https://github.com/saifu-r'
   }
+  const locationGithubProject1= ()=>{
+    location.href= 'https://github.com/saifu-r/WeatherApp'
+  }
+  const locationGithubProject2= ()=>{
+    location.href= 'https://github.com/saifu-r/Pomorodo'
+  }
 
-  return {toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience, locationProject}
+  return {toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience, locationProject,
+    locationGithubProject1, locationGithubProject2}
   }
 });
 </script>
@@ -625,7 +644,7 @@ section{
 
 #about{
   position: relative;
-  background-color: rgb(232, 250, 250);
+  background-color: #F99A54 ;
 }
 
 .about-containers{
@@ -659,10 +678,10 @@ section{
 .details-container{
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #D0D4CA;
   border-radius: 2rem;
-  border: rgb(53,53,53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  /* border: rgb(53,53,53) 0.1rem solid;
+  border-color: rgb(238, 150, 50); */
   text-align: center;
 }
 
@@ -685,7 +704,7 @@ section{
 
 #experience{
   position:relative;
-  background-color: darkgray;
+  background-color: #FAAF6A;
 }
 
 .experience-sub-title{
@@ -731,16 +750,19 @@ article .icon{
 
 #projects{
   position:relative;
-  background-color: rgb(151, 114, 114);
+  background-color: #FCC47F;
   padding-right: 30px;
   padding-bottom: 0;
   padding-left: 30px;
+  justify-content: space-between;
+  
   
 }
 
 .color-container{
   border-color: rgb(163,163,163);
-  background: rgb(250,250,250);
+  background: #D0D4CA;
+  
 }
 
 .project-img{
@@ -769,6 +791,7 @@ article .icon{
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  background: #FDD995;
 }
 
 .contact-info-upper-container{
@@ -777,7 +800,7 @@ article .icon{
   border-radius: 2rem;
   border: rgb(53,53,53);
   border-color: rgb(163,163,163);
-  background: rgb(250, 250, 250);
+  background: #D0D4CA;
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -804,12 +827,21 @@ article .icon{
 
 footer{
   height: 26vh;
-  margin: 0 1rem;
+  background: #FDD995;
+
 
 }
 
 footer p{
   text-align: center;
+}
+
+footer nav {
+  background: #FDD995;
+}
+
+footer nav .nav-links{
+  background: #FDD995;
 }
 
 
@@ -856,6 +888,8 @@ footer p{
     height: 275px;
     margin: 0 auto 2rem;
   }
+
+  
   
   .about-containers{
     margin-top: 0;
@@ -947,7 +981,5 @@ footer p{
   
 }
 
-
- 
 
 </style>
