@@ -64,7 +64,7 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container2">
-          <img src="./assets/about_pic4.jpg" alt="About Picture" class="section__pic-container2">
+          <img src="./assets/about_pic6.png" alt="About Picture" class="section__pic-container2">
         </div>
         <div class="about-details-container">
           <div class="about-containers">
@@ -250,17 +250,8 @@
             
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-demo.png" alt="project3" class="project-img">
-          </div>
-          <h2 class="experience-sub-title project-title">Project 3</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
-            
-          </div>
-        </div></div>
+        
+      </div>
       </div>
 
       <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" @click="locationContact">
@@ -699,7 +690,7 @@ section{
 }
 
 .section__pic-container2{
-  height: 600px;
+  height: 500px;
   
   margin: auto 0;
   border-radius: 2rem;
@@ -851,18 +842,6 @@ footer nav {
 footer nav .nav-links{
   background: #FDD995;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
