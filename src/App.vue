@@ -39,7 +39,7 @@
       <div class="section__text"> 
         
         <div class="section__text__container">
-          <div class="hey">heyy,</div>
+          <div class="hey">hey,</div>
           <p class="section__text__p1_hey">I'm </p>
         </div>
         
