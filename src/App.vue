@@ -34,7 +34,7 @@
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profilepicedit-modified2.png" alt="Saifur Rahman">
+        <img src="./assets/profilepicedit-modified4.png" alt="Saifur Rahman">
       </div>
       <div class="section__text"> 
         
@@ -199,12 +199,9 @@
                   <p>Intermediate</p>
                 </div>
               </article>
-
-              
+         
             </div>
           </div>
-
-
 
         </div>
       </div>
@@ -245,7 +242,18 @@
           </div>
           <h2 class="experience-sub-title project-title">CSE Quiz</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
+            <button class="btn btn-color-2 project-btn" @click="locationGithubProject3">Github</button>
+            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project4.png" alt="project3" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Password Generator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" @click="locationGithubProject4">Github</button>
             <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
             
           </div>
@@ -267,7 +275,7 @@
         </div>
         <div class="contact-info-container">
           <img src="./assets/linkedin.png" alt="linedin icon" class="icon linedin-icon">
-          <p><a href="https://linkedin.com">Message Me</a></p>
+          <p><a href="https://www.linkedin.com/in/saifur-rahman-597793274/">Message Me</a></p>
         </div>
       </div>
     </section>
@@ -327,7 +335,7 @@ export default defineComponent({
   }
 
   const locationLinkedIn= ()=>{
-    location.href= 'https://linkedin.com'
+    location.href= 'https://www.linkedin.com/in/saifur-rahman-597793274/'
   }
   const locationGithub= ()=>{
     location.href= 'https://github.com/saifu-r'
@@ -338,9 +346,15 @@ export default defineComponent({
   const locationGithubProject2= ()=>{
     location.href= 'https://github.com/saifu-r/Pomorodo'
   }
+  const locationGithubProject3= ()=>{
+    location.href= 'https://github.com/saifu-r/QuizApp'
+  }
+  const locationGithubProject4= ()=>{
+    location.href= 'https://github.com/saifu-r/passwordGenerator'
+  }
 
   return {toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience, locationProject,
-    locationGithubProject1, locationGithubProject2}
+    locationGithubProject1, locationGithubProject2, locationGithubProject3, locationGithubProject4}
   }
 });
 </script>
@@ -615,7 +629,7 @@ section{
 }
 
 .btn-color-1, .btn-color-2{
-  background: rgba(255,152,0,255);
+  background: rgb(255,152,0);
   color: black;
   
 }
