@@ -457,6 +457,7 @@ a:hover{
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+  background-color: #D0D4CA;
 
 }
 
@@ -726,6 +727,7 @@ section{
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  margin: 20px;
 }
 
 article{
@@ -802,6 +804,7 @@ article .icon{
   background: #D0D4CA;
   margin: 2rem auto;
   padding: 0.5rem;
+  gap: 20px;
 }
 
 .contact-info-container{
@@ -879,7 +882,9 @@ footer nav .nav-links{
   
   
   .about-containers{
-    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  
   }
 
 }
