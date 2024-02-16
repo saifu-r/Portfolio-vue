@@ -348,7 +348,7 @@ export default defineComponent({
     }
 
     const locationLiveProject1= ()=>{
-      location.href= 'https://saifurrahmandev.netlify.app/'
+      location.href= 'https://electronic-intel.netlify.app/gadget-shop'
     }
     const locationLiveProject2= ()=>{
       location.href= 'https://weatherapp-intel.netlify.app/'
@@ -357,7 +357,7 @@ export default defineComponent({
       location.href= 'https://pomorodo-app.netlify.app/'
     }
     const locationLiveProject4= ()=>{
-      location.href= 'https://weatherapp-intel.netlify.app/'
+      location.href= 'https://quiz-intel.netlify.app/'
     }
 
     
