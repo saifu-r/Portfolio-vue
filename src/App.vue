@@ -29,20 +29,20 @@
           <li><a href="#contact" @click="toggleMenu">Contact</a></li>
         </div>
       </div>
-      
+
     </nav>
 
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profilepicedit-modified4.png" alt="Saifur Rahman">
       </div>
-      <div class="section__text"> 
-        
+      <div class="section__text">
+
         <div class="section__text__container">
           <div class="hey">hey,</div>
           <p class="section__text__p1_hey">I'm </p>
         </div>
-        
+
         <h1 class="title">Saifur Rahman</h1>
         <p class="section__text__p2">Web Developer</p>
         <div class="btn-container">
@@ -54,8 +54,8 @@
           <img src="./assets/github.png" alt="github" class="icon" @click="locationGithub">
         </div>
 
-        
-        
+
+
       </div>
     </section>
 
@@ -71,24 +71,30 @@
             <div class="details-container">
               <img src="./assets/experience.png" alt="Experience" class="icon">
               <h3>Experience</h3><br>
-              <p>Fresher <br>Web Developer</p> 
+              <p>Fresher <br>Web Developer</p>
 
             </div>
             <div class="details-container">
               <img src="./assets/education.png" alt="Education" class="icon">
               <h3>Education</h3><br>
               <p>GCSES/A Levels- Science<br>Oxford International School</p> <br>
-              <p>B.Sc. Bachelors Degree <br>North South University</p> 
+              <p>B.Sc. Bachelors Degree <br>North South University</p>
             </div>
           </div>
 
           <div class="text-container">
-            <p>As a recent graduate actively pursuing opportunities in web development, I bring a solid educational foundation in design principles and programming, 
-              along with practical experience in HTML, CSS, and JavaScript. Proficient in Vue3 Composition API, I leverage its advantages for enhanced code reusability 
-              and maintainability. I have applied TypeScript to my projects for improved typing and code quality. In a junior design project, I utilized Android Studio, 
-              Java, and SQLite to develop an NGO application, enabling users to search for donations for autism children, find nearby doctors, and locate schools specializing 
-              in autism care. Additionally, my senior design project, "Natural Disaster Damage Estimation Using Deep Learning," involved implementing some models 
-              for accurate damage detection. I am eager to contribute my skills and passion for web development to impactful projects.</p>
+            <p>As a recent graduate actively pursuing opportunities in web development, I bring a solid educational
+              foundation in design principles and programming,
+              along with practical experience in HTML, CSS, and JavaScript. Proficient in Vue3 Composition API, I leverage
+              its advantages for enhanced code reusability
+              and maintainability. I have applied TypeScript to my projects for improved typing and code quality. In a
+              junior design project, I utilized Android Studio,
+              Java, and SQLite to develop an NGO application, enabling users to search for donations for autism children,
+              find nearby doctors, and locate schools specializing
+              in autism care. Additionally, my senior design project, "Natural Disaster Damage Estimation Using Deep
+              Learning," involved implementing some models
+              for accurate damage detection. I am eager to contribute my skills and passion for web development to
+              impactful projects.</p>
           </div>
 
         </div>
@@ -168,26 +174,12 @@
                 </div>
               </article>
 
-              <article>
-                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
+
 
               <article>
                 <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-
-              <article>
-                <img src="./assets/checkmark.png" alt="experience-icon" class="icon">
-                <div>
-                  <h3>Express JS</h3>
+                  <h3>Firebase</h3>
                   <p>Basic</p>
                 </div>
               </article>
@@ -199,7 +191,7 @@
                   <p>Intermediate</p>
                 </div>
               </article>
-         
+
             </div>
           </div>
 
@@ -214,52 +206,53 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project1.png" alt="project1" class="project-img"> 
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project5.png" alt="project3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Gadget Shop</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject5">Live Demo</button>
+    
+            </div>
           </div>
-          <h2 class="experience-sub-title project-title">Weather Application</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" @click="locationGithubProject1">Github</button>
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
-            
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project1.png" alt="project1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Weather Application</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject1">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+
+            </div>
           </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project2.png" alt="project2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Pomorodo Application</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject2">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project3.png" alt="project2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">CSE Quiz</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject3">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+
+            </div>
+          </div>
+
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project2.png" alt="project2" class="project-img">
-          </div>
-          <h2 class="experience-sub-title project-title">Pomorodo Application</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" @click="locationGithubProject2">Github</button>
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
-            
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project3.png" alt="project2" class="project-img">
-          </div>
-          <h2 class="experience-sub-title project-title">CSE Quiz</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" @click="locationGithubProject3">Github</button>
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
-            
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project4.png" alt="project3" class="project-img">
-          </div>
-          <h2 class="experience-sub-title project-title">Password Generator</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" @click="locationGithubProject4">Github</button>
-            <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
-            
-          </div>
-        </div>
-        
-      </div>
       </div>
 
       <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" @click="locationContact">
@@ -290,14 +283,13 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        
+
       </nav>
 
       <p>Copywrite &#169; 2023 Saifur Rahman, All Rights</p>
     </footer>
 
   </div>
-
 </template>
 
 <script lang="ts">
@@ -307,136 +299,168 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'App',
   components: {},
-  setup(){
-    const toggleMenu= ()=>{
-      const menu= document.querySelector('.menu-links')
-      const icon= document.querySelector('.hamburger-icon')
+  setup() {
+    const toggleMenu = () => {
+      const menu = document.querySelector('.menu-links')
+      const icon = document.querySelector('.hamburger-icon')
 
-      if(menu && icon){
+      if (menu && icon) {
         menu.classList.toggle('open')
         icon.classList.toggle('open')
       }
 
-  }
-  const downloadCV= ()=>{
-    window.open('./assets/summer23.pdf', '_blank')
-  }
+    }
+    const downloadCV = () => {
+      window.open('./assets/summer23.pdf', '_blank')
+    }
 
-  const locationContact= ()=>{
-    location.href= './#contact'
-  }
+    const locationContact = () => {
+      location.href = './#contact'
+    }
 
-  const locationExperience= ()=>{
-    location.href= './#experience'
-  }
+    const locationExperience = () => {
+      location.href = './#experience'
+    }
 
-  const locationProject= ()=>{
-    location.href= './#projects'
-  }
+    const locationProject = () => {
+      location.href = './#projects'
+    }
 
-  const locationLinkedIn= ()=>{
-    location.href= 'https://www.linkedin.com/in/saifur-rahman-597793274/'
-  }
-  const locationGithub= ()=>{
-    location.href= 'https://github.com/saifu-r'
-  }
-  const locationGithubProject1= ()=>{
-    location.href= 'https://github.com/saifu-r/WeatherApp'
-  }
-  const locationGithubProject2= ()=>{
-    location.href= 'https://github.com/saifu-r/Pomorodo'
-  }
-  const locationGithubProject3= ()=>{
-    location.href= 'https://github.com/saifu-r/QuizApp'
-  }
-  const locationGithubProject4= ()=>{
-    location.href= 'https://github.com/saifu-r/passwordGenerator'
-  }
+    const locationLinkedIn = () => {
+      location.href = 'https://www.linkedin.com/in/saifur-rahman-597793274/'
+    }
+    const locationGithub = () => {
+      location.href = 'https://github.com/saifu-r'
+    }
+    const locationGithubProject1 = () => {
+      location.href = 'https://github.com/saifu-r/WeatherApp'
+    }
+    const locationGithubProject2 = () => {
+      location.href = 'https://github.com/saifu-r/Pomorodo'
+    }
+    const locationGithubProject3 = () => {
+      location.href = 'https://github.com/saifu-r/QuizApp'
+    }
+    const locationGithubProject5 = () => {
+      location.href = 'https://electronic-intel.netlify.app/gadget-shop'
+    }
 
-  return {toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience, locationProject,
-    locationGithubProject1, locationGithubProject2, locationGithubProject3, locationGithubProject4}
+    return {
+      toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience, locationProject,
+      locationGithubProject1, locationGithubProject2, locationGithubProject3, locationGithubProject5
+    }
   }
 });
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); /* for hey */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* for hey */
 
-*{
+
+::-webkit-scrollbar {
+  width: 12px;
+  /* Width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+  background-color: #555;
+}
+
+* {
   margin: 0;
   padding: 0;
 
 }
-body{
+
+body {
   font-family: 'League Spartan', sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-p{
+p {
   color: rgb(85, 85, 85);
 }
 
-a, .btn{
+a,
+.btn {
   transition: all 300ms ease;
 }
 
-nav, .nav-links{
+nav,
+.nav-links {
   display: flex;
   background-color: #F5CCA0;
 }
 
-nav{
+nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
 
 }
 
-.nav-links{
+.nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
   text-decoration-color: rgb(238, 150, 50);
 }
 
-a:hover{
+a:hover {
   color: rgb(238, 150, 50);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(238, 150, 50);
 }
 
-.logo{
+.logo {
   font-size: 2.5rem;
   color: rgb(240, 134, 34);
-  
+
 
 }
 
-.logo:hover{
+.logo:hover {
   cursor: default;
 }
 
-#hamburger-nav{
+#hamburger-nav {
   display: none;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   position: relative;
   display: inline-block;
 
 }
 
-.hamburger-icon{
+.hamburger-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -445,14 +469,14 @@ a:hover{
   cursor: pointer;
 }
 
-.hamburger-icon span{
+.hamburger-icon span {
   width: 100%;
   height: 2px;
   background-color: black;
   transition: all 0.3 ease-in-out;
 }
 
-.menu-links{
+.menu-links {
   position: absolute;
   top: 100%;
   right: 0;
@@ -461,9 +485,10 @@ a:hover{
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
-  
+
 }
-.menu-links a{
+
+.menu-links a {
   display: block;
   padding: 10px;
   text-align: center;
@@ -475,42 +500,46 @@ a:hover{
 
 }
 
-.menu-links li{
+.menu-links li {
   list-style: none;
 
 }
 
-.menu-links.open{
+.menu-links.open {
   max-height: 300px;
 
 }
 
-.hamburger-icon.open span:first-child{
-  transform: rotate(45deg) translate(10px,5px);
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
 
 }
-.hamburger-icon.open span:nth-child(2){
+
+.hamburger-icon.open span:nth-child(2) {
   opacity: 0;
 
 }
-.hamburger-icon.open span:last-child{
-  transform: rotate(-45deg) translate(10px,-5px);
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
 
 }
 
-.hamburger-icon span:first-child{
+.hamburger-icon span:first-child {
   transform: none;
 }
-.hamburger-icon span:first-child{
+
+.hamburger-icon span:first-child {
   opacity: 1;
 }
-.hamburger-icon span:first-child{
+
+.hamburger-icon span:first-child {
   transform: none;
 }
 
 /* section */
 
-section{
+section {
   padding-top: 4vh;
   height: 96vh;
   /* smargin: 0 10rem;
@@ -518,15 +547,15 @@ section{
   min-height: fit-content;
 }
 
-.section-container{
+.section-container {
   display: flex;
   justify-content: center;
-  
+
 }
 
 /* profile */
 
-#profile{
+#profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -535,7 +564,7 @@ section{
 
 }
 
-.section__pic-container{
+.section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
@@ -545,16 +574,12 @@ section{
 
 }
 
-
-
-.section__text{
+.section__text {
   align-self: center;
   text-align: center;
-  
-
 }
 
-.section__text p{
+.section__text p {
   font-weight: 600;
   margin: 15px;
 }
@@ -563,32 +588,33 @@ section{
   display: inline-block;
 }
 
-.hey, .section__text__p1_hey {
+.hey,
+.section__text__p1_hey {
   display: inline;
 }
 
-.hey{
+.hey {
   font-family: 'Shadows Into Light', cursive;
   font-size: 70px;
   color: rgb(240, 134, 34);
 
 }
 
-.section__text__p1{
+.section__text__p1 {
   text-align: center;
 }
 
-.section__text__p2{
+.section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 5rem;
 }
 
-.title{
+.title {
   font-size: 3rem;
   text-align: center;
 }
 
-#socials-container{
+#socials-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -597,20 +623,20 @@ section{
 
 /* icon */
 
-.icon{
+.icon {
   cursor: pointer;
   height: 2rem;
 }
 
 /* button */
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-.btn{
+.btn {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
@@ -619,52 +645,59 @@ section{
 
 }
 
-.btn-color-1, .btn-color-2{
+.btn-color-1,
+.btn-color-2 {
   border: rgb(238, 150, 50) 0.05rem solid;
 }
 
-.btn-color-1:hover, .btn-color-2:hover{
+.btn-color-1:hover,
+.btn-color-2:hover {
   cursor: pointer;
 
 }
 
-.btn-color-1, .btn-color-2{
-  background: rgb(255,152,0);
+.btn-color-1,
+.btn-color-2 {
+  background: rgb(255, 152, 0);
   color: black;
-  
+
 }
 
-.btn-color-1:hover, .btn-color-2:hover{
+.btn-color-1:hover,
+.btn-color-2:hover {
   border: white 0.05rem solid;
-  background: rgba(255,152,0,255);
+  background: rgba(255, 152, 0, 255);
 }
 
 
 
 
-.btn-container{
+.btn-container {
   gap: 1rem;
 }
 
 /* About Section */
 
-#about{
+#about {
   position: relative;
-  background-color: #F99A54 ;
+  background-color: #F99A54;
 }
 
-.about-containers{
+.about-containers {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
-.about-details-container{
+.about-details-container {
   justify-content: center;
   flex-direction: column;
 }
 
-.text-container{
+.text-container {
   width: 700px;
   text-align: center;
   font-size: large;
@@ -672,23 +705,24 @@ section{
 }
 
 
-.about-containers, .about-details-container{
+.about-containers,
+.about-details-container {
   display: flex;
 }
 
-.about-pic{
+.about-pic {
   border-radius: 2rem;
-  
-  
+
+
 }
 
-.arrow{
+.arrow {
   position: absolute;
   right: 5rem;
   bottom: 2.5rem;
 }
 
-.details-container{
+.details-container {
   padding: 1.5rem;
   flex: 1;
   background: #D0D4CA;
@@ -696,17 +730,18 @@ section{
   /* border: rgb(53,53,53) 0.1rem solid;
   border-color: rgb(238, 150, 50); */
   text-align: center;
+  max-width: 500px;
 }
 
-.section-container{
+.section-container {
   gap: 4rem;
   height: 80%;
 
 }
 
-.section__pic-container2{
+.section__pic-container2 {
   height: 500px;
-  
+
   margin: auto 0;
   border-radius: 2rem;
   object-fit: cover;
@@ -715,26 +750,26 @@ section{
 
 /* Experience section */
 
-#experience{
-  position:relative;
+#experience {
+  position: relative;
   background-color: #FAAF6A;
 }
 
-.experience-sub-title{
-  color: rgb(85,85,85);
+.experience-sub-title {
+  color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container{
+.experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 
 }
 
-.article-container{
+.article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
@@ -744,64 +779,65 @@ section{
   margin: 20px;
 }
 
-article{
+article {
   display: flex;
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
-article .icon{
+
+article .icon {
   cursor: default;
 }
 
-#experience .details-container{
+#experience .details-container {
   margin-left: 40px;
   margin-right: 40px;
-  padding:  50px 100px 100px;
+  padding: 50px 100px 100px;
 }
 
 /* projects section*/
 
-#projects{
-  position:relative;
+#projects {
+  position: relative;
   background-color: #FCC47F;
   padding-right: 30px;
   padding-bottom: 0;
   padding-left: 30px;
   justify-content: space-between;
-  
-  
+
+
 }
 
-.color-container{
-  border-color: rgb(163,163,163);
+.color-container {
+  border-color: rgb(163, 163, 163);
   background: #D0D4CA;
-  
+
 }
 
-.project-img{
+.project-img {
   border-radius: 2rem;
   width: 100%;
   height: 70%;
 
 }
 
-.project-title{
+.project-title {
   margin: 2rem;
-  color:black;
+  color: black;
   font-size: larger;
-  
+
 
 }
 
-.project-btn{
+.project-btn {
   color: black;
-  border-color: rgb(163,163,163);
+  border-color: rgb(163, 163, 163);
 }
 
 /* Contact */
 
-#contact{
+#contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -809,19 +845,19 @@ article .icon{
   background: #FDD995;
 }
 
-.contact-info-upper-container{
+.contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53,53,53);
-  border-color: rgb(163,163,163);
+  border: rgb(53, 53, 53);
+  border-color: rgb(163, 163, 163);
   background: #D0D4CA;
   margin: 2rem auto;
   padding: 0.5rem;
   gap: 20px;
 }
 
-.contact-info-container{
+.contact-info-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -829,26 +865,26 @@ article .icon{
   margin: 1rem;
 }
 
-.contact-info-container p{
+.contact-info-container p {
   font-size: larger;
 }
 
-.contact-icon{
-  cursor: default ;
+.contact-icon {
+  cursor: default;
   height: 2rem;
 
 }
 
 /* footer Section */
 
-footer{
+footer {
   height: 26vh;
   background: #FDD995;
 
 
 }
 
-footer p{
+footer p {
   text-align: center;
 }
 
@@ -856,7 +892,7 @@ footer nav {
   background: #FDD995;
 }
 
-footer nav .nav-links{
+footer nav .nav-links {
   background: #FDD995;
 }
 
@@ -864,132 +900,152 @@ footer nav .nav-links{
 
 
 @media screen and (max-width: 1200px) {
-  #desktop-nav{
+  #desktop-nav {
     display: none;
   }
-  #hamburger-nav{
+
+  #hamburger-nav {
     display: flex;
   }
-  #experience, .experience-details-container{
+
+  #experience,
+  .experience-details-container {
     /* margin-top: 2rem; */
 
   }
 
-  #profile, .section-container{
-    display:block;
+  #profile,
+  .section-container {
+    display: block;
   }
-  .arrow{
+
+  .arrow {
     display: none;
   }
 
-  section, .section-container{
+  section,
+  .section-container {
     height: fit-content;
   }
 
-  
-  .section__pic-container{
+
+  .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
 
-  
-  
-  .about-containers{
+
+
+  .about-containers {
     margin-left: 10px;
     margin-right: 10px;
-  
+
   }
 
 }
 
 @media screen and (max-width: 1400px) {
-  #profile{
+  #profile {
     height: 83vh;
     margin-bottom: 6rem;
-    
+
   }
-  .about-containers{
+
+  .about-containers {
     flex-wrap: wrap;
   }
 
-@media screen and (max-width: 600px){
-  #contact, footer{
-    height: 40vh;
+  @media screen and (max-width: 600px) {
 
-  }
-  #profile{
-    height: 83vh;
-    margin-bottom: 0;
+    #contact,
+    footer {
+      height: 40vh;
 
-  }
-  article{
-    font-size: 1rem;
-  }
-  footer nav{
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
-  .about-containers, .contact-info-upper-container, .btn-container{
-    flex-wrap: wrap;
+    }
 
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+
+    }
+
+    article {
+      font-size: 1rem;
+    }
+
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+
+    }
+
+    .contact-info-container {
+      margin: 0;
+
+    }
+
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+
+    .experience-sub-title {
+      font-size: 1.25rem;
+
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+
+    .section__pic-container {
+      height: 200px;
+      width: 200px;
+
+      justify-content: center;
+
+    }
+
+    .section__text__p2 {
+      font-size: 1.25rem;
+
+    }
+
+    .title {
+      font-size: 2rem;
+
+    }
+
+    .text-container {
+      text-align: justify;
+      width: auto;
+      margin: 10px;
+      font-size: smaller;
+    }
+
+    .section__pic-container2 {
+      width: auto;
+      height: 25vh;
+      justify-content: center;
+      display: flex;
+    }
+
+    #experience .details-container {
+      padding: 20px 0px 0px 20px;
+    }
   }
 
-  .contact-info-container{
-    margin: 0;
-
-  }
-  .contact-info-container p,.nav-links li a{
-    font-size: 1rem;
-  }
-  .experience-sub-title{
-    font-size: 1.25rem;
-
-  }
-  .logo{
-    font-size: 1.5rem;
-  }
-  .nav-links{
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .section__pic-container{
-    height: 200px;
-    width: 200px;
-
-    justify-content: center;
-
-  }
-  .section__text__p2{
-    font-size: 1.25rem;
-
-  }
-
-  .title{
-    font-size: 2rem;
-
-  }
-  .text-container{
-    text-align: justify;
-    width: auto;
-    margin: 10px;
-    font-size: smaller;
-  }
-  .section__pic-container2{
-    width: auto;
-    height: 25vh;
-    justify-content: center;
-    display: flex;
-  }
-
-  #experience .details-container{
-    padding: 20px 0px 0px 20px;
-  }
-}
-  
-  
-}
-
-
-</style>
+}</style>
