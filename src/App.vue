@@ -43,7 +43,7 @@
           <p class="section__text__p1_hey">I'm </p>
         </div>
 
-        <h1 class="title">Saifur Rahman</h1>
+        <h1 class="title">Saifffur Rahman</h1>
         <p class="section__text__p2">Web Developer</p>
         <div class="btn-container">
           <button class="btn btn-color-1" @click="downloadCV">Download CV</button>
@@ -212,8 +212,8 @@
             </div>
             <h2 class="experience-sub-title project-title">Gadget Shop</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" @click="locationGithub">Github</button>
-              <button class="btn btn-color-2 project-btn" @click="locationGithubProject5">Live Demo</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject1">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationLiveProject1">Live Demo</button>
     
             </div>
           </div>
@@ -223,8 +223,8 @@
             </div>
             <h2 class="experience-sub-title project-title">Weather Application</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" @click="locationGithubProject1">Github</button>
-              <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject2">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationLiveProject2">Live Demo</button>
 
             </div>
           </div>
@@ -235,8 +235,8 @@
             </div>
             <h2 class="experience-sub-title project-title">Pomorodo Application</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" @click="locationGithubProject2">Github</button>
-              <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject3">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationLiveProject3">Live Demo</button>
 
             </div>
           </div>
@@ -246,8 +246,8 @@
             </div>
             <h2 class="experience-sub-title project-title">CSE Quiz</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" @click="locationGithubProject3">Github</button>
-              <button class="btn btn-color-2 project-btn" @click="locationGithub">Live Demo</button>
+              <button class="btn btn-color-2 project-btn" @click="locationGithubProject4">Github</button>
+              <button class="btn btn-color-2 project-btn" @click="locationLiveProject4" disabled>Live Demo</button>
 
             </div>
           </div>
@@ -332,22 +332,39 @@ export default defineComponent({
     const locationGithub = () => {
       location.href = 'https://github.com/saifu-r'
     }
+
     const locationGithubProject1 = () => {
-      location.href = 'https://github.com/saifu-r/WeatherApp'
-    }
-    const locationGithubProject2 = () => {
-      location.href = 'https://github.com/saifu-r/Pomorodo'
-    }
-    const locationGithubProject3 = () => {
-      location.href = 'https://github.com/saifu-r/QuizApp'
-    }
-    const locationGithubProject5 = () => {
-      location.href = 'https://electronic-intel.netlify.app/gadget-shop'
+      location.href = 'https://github.com/saifu-r/ElectronicShop-vue'
     }
 
+    const locationGithubProject2 = () => {
+      location.href = 'https://github.com/saifu-r/WeatherApp'
+    }
+    const locationGithubProject3 = () => {
+      location.href = 'https://github.com/saifu-r/Pomorodo'
+    }
+    const locationGithubProject4 = () => {
+      location.href = 'https://github.com/saifu-r/QuizApp'
+    }
+
+    const locationLiveProject1= ()=>{
+      location.href= 'https://saifurrahmandev.netlify.app/'
+    }
+    const locationLiveProject2= ()=>{
+      location.href= 'https://weatherapp-intel.netlify.app/'
+    }
+    const locationLiveProject3= ()=>{
+      location.href= 'https://pomorodo-app.netlify.app/'
+    }
+    const locationLiveProject4= ()=>{
+      location.href= 'https://weatherapp-intel.netlify.app/'
+    }
+
+    
     return {
       toggleMenu, downloadCV, locationContact, locationLinkedIn, locationGithub, locationExperience, locationProject,
-      locationGithubProject1, locationGithubProject2, locationGithubProject3, locationGithubProject5
+      locationGithubProject1, locationGithubProject2, locationGithubProject3, locationGithubProject4,
+      locationLiveProject1, locationLiveProject2, locationLiveProject3, locationLiveProject4
     }
   }
 });
