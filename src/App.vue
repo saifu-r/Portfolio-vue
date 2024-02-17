@@ -43,7 +43,7 @@
           <p class="section__text__p1_hey">I'm </p>
         </div>
 
-        <h1 class="title">Saifffur Rahman</h1>
+        <h1 class="title">Saifur Rahman</h1>
         <p class="section__text__p2">Web Developer</p>
         <div class="btn-container">
           <button class="btn btn-color-1" @click="downloadCV">Download CV</button>
@@ -247,7 +247,7 @@
             <h2 class="experience-sub-title project-title">CSE Quiz</h2>
             <div class="btn-container">
               <button class="btn btn-color-2 project-btn" @click="locationGithubProject4">Github</button>
-              <button class="btn btn-color-2 project-btn" @click="locationLiveProject4" disabled>Live Demo</button>
+              <button class="btn btn-color-2 project-btn" @click="locationLiveProject4">Live Demo</button>
 
             </div>
           </div>
@@ -348,7 +348,7 @@ export default defineComponent({
     }
 
     const locationLiveProject1= ()=>{
-      location.href= 'https://electronic-intel.netlify.app/gadget-shop'
+      location.href= 'https://electronic-intel.netlify.app/'
     }
     const locationLiveProject2= ()=>{
       location.href= 'https://weatherapp-intel.netlify.app/'
